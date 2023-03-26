@@ -34,6 +34,18 @@ function Registration() {
 
   const handleSubmit = (event) => {
 		event.preventDefault();
+    
+    if (
+      selectedFile === null || 
+      teamName === '' || 
+      leader === '' || 
+      leaderNumber === '' || 
+      leaderEmail === '' || 
+      collegeName ==='' || 
+      mainEventchoice === ''
+    ) {
+      showToastError('Please Fill All Details')
+    }
 
     const formData = new FormData();
     
