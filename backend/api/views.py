@@ -4,13 +4,12 @@ from django.views.decorators.csrf import csrf_exempt
 
 # Create your views here.
 def hello(request):
-    return JsonResponse({"Respone":"OK", "Backend":"Django", "Status":"UP"})
+    return JsonResponse({"Respone":"OK", "Backend":"Django", "Status":"up"})
 
 
 @csrf_exempt
 def register(request):
     if request.method == 'POST':
-        print('hi')
         image = request.FILES['image']
         main_event = request.POST['mainEvent']
         mini_event = request.POST['escapeRoom']
