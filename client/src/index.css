@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0,0,0,.4)), url('./assets/bg_1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+@layer base {
+
+    @font-face {
+        font-family: "Android Assassin";
+        src: url('../public/Android\ Assassin.otf') format('otf'), url("//db.onlinewebfonts.com/t/67565fbce7544c4781ec3480376eb253.eot"); src: url("//db.onlinewebfonts.com/t/67565fbce7544c4781ec3480376eb253.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/67565fbce7544c4781ec3480376eb253.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/67565fbce7544c4781ec3480376eb253.woff") format("woff"), url("//db.onlinewebfonts.com/t/67565fbce7544c4781ec3480376eb253.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/67565fbce7544c4781ec3480376eb253.svg#Android Assassin") format("svg");;
+    }
+
+    @font-face {
+        font-family: "Social Gothic Bold";
+        src: url('./assets/Fonts/SocialGothic-Demibold.woff') format('woff'), url('./assets/Fonts/SocialGothic-Demibold.woff2') format('woff2'), url('../public/Social\ Gothic\ Bold.otf') format('otf');
+    }
+    @font-face {
+        font-family: "Social Gothic DemiBold";
+        src: url('./assets/Fonts/SocialGothic-Demibold.woff') format('woff'), url('./assets/Fonts/SocialGothic-Demibold.woff2') format('woff2'), url('../public/Social\ Gothic\ DemiBold.otf') format('otf'), ;
+    }
+    @font-face {
+        font-family: "Social Gothic Medium";
+        src: url('./assets/Fonts/SocialGothic-Demibold.woff') format('woff'), url('./assets/Fonts/SocialGothic-Demibold.woff2') format('woff2'), url('../public/Social\ Gothic\ Medium.otf') format('otf');
+    }
+    @font-face {
+        font-family: "Social Gothic Regular";
+        src: url('./assets/Fonts/SocialGothic-Demibold.woff') format('woff'), url('./assets/Fonts/SocialGothic-Demibold.woff2') format('woff2'), url('../public/Social\ Gothic\ Regular.otf') format('otf');
+    }
+    @font-face {
+        font-family: "Montserrat";
+        src: url('./assets/Fonts/Montserrat-Regular.woff') format('woff'), url('./assets/Fonts/Montserrat-Regular.woff2') format("woff2");
+    }
+}
