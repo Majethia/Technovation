@@ -44,7 +44,8 @@ function Registration() {
       collegeName ==='' || 
       mainEventchoice === ''
     ) {
-      showToastError('Please Fill All Details')
+      showToastError('Please Fill All Details');
+      return;
     }
 
     const formData = new FormData();
