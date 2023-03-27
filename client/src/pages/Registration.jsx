@@ -86,6 +86,10 @@ function Registration() {
           <div className=' sm:w-fit p-14 sm:p-0 flex justify-center items-center'>
             <form onSubmit={handleSubmit} className="flex justify-center items-center flex-col sm:inline-block">
               <div className="mb-5 mt-10">
+                <p className="block mb-2 text-sm font-medium text-slate-100 font-Android_Assassin uppercase">Please read the rules before registering.
+                <Link to='/technovation/events' className='block mb-2 text-sm font-medium text-slate-100 font-Android_Assassin uppercase underline text-blue-600 hover:text-blue-800 visited:text-purple-600'>Click Here to read rules</Link>
+                <br/>
+                </p>
                 <label htmlFor="name" className="block mb-2 text-sm font-medium text-slate-100 font-Android_Assassin uppercase">Choose event</label>
                 <div className=' bg-slate-400/20 px-5 py-4 rounded-md'>
                   <label htmlFor="nerf_arena" className=' font-montserrat font-bold text-base text-slate-100 uppercase'>Tech-A-Thon</label>

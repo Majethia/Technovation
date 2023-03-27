@@ -77,7 +77,8 @@ function Event() {
             4. No headshots are allowed. The goal of Nerf battles is to have fun, not hurt anyone.<br/><br/>
             5. Players are not allowed to climb on obstacles.<br/><br/>
             6. Physical contact between participants is prohibited.<br/><br/>
-            7. No cheating or unsportsmanlike behaviour will be tolerated.
+            7. No cheating or unsportsmanlike behaviour will be tolerated.<br/><br/><br/>
+            Register for Nerf Arena Here: <a className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://forms.gle/LABe5BcX32Y8Aykj9">https://forms.gle/LABe5BcX32Y8Aykj9</a>
             </p>
             </div>
             <div className='bg-gradient-to-r from-blue-200/20 to-blue-200/5 backdrop-filter backdrop-blur-sm px-8 py-10 sm:py-4 sm:px-14 lg:py-8 lg:px-28 rounded-2xl border border-slate-400/20 hover:bg-slate-400/5 hover:cursor-pointer'>
