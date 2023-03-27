@@ -15,7 +15,7 @@ function Contact() {
             <div className='flex gap-9 m-2 flex-col sm:flex-row'>
               <div className='sm:w-1/2 bg-gradient-to-r from-blue-200/20 to-blue-200/5 backdrop-filter backdrop-blur-sm py-4 px-14 lg:py-8 lg:px-28 rounded-2xl border border-slate-400/20 hover:bg-slate-400/5 hover:cursor-pointer'>
                 <h2 className=' uppercase font-Android_Assassin text-left bg-clip-text text-transparent bg-gradient-to-r from-[#94E8E3] to-[#94E8E3] text-xl lg:text-2xl'>
-                  Zaid <br/> Rupani
+                  Zaid Rupani
                 </h2>
                 <h3 className=' uppercase font-Android_Assassin text-left bg-clip-text text-transparent bg-gradient-to-r from-[#94E8E3] to-[#94E8E3] text-sm mb-2'>Secretary</h3>
                 <p className=' uppercase font-Android_Assassin text-left bg-clip-text text-transparent bg-gradient-to-r from-[#94E8E3] to-[#94E8E3] text-base'>70575 61199</p>
