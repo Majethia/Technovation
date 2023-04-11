@@ -17,6 +17,34 @@ body::-webkit-scrollbar{
     display: none;
 }
 
+.dropdown-menu {
+    position: absolute;
+    transform: translateY(4px);
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: auto;
+    max-height: 150px;
+    background-color: #252c38;
+  }
+  
+  .dropdown-item {
+    padding: 5px;
+    cursor: pointer;
+  }
+
+  .dropdown-item:hover {
+    background-color: #9fc3f870;
+  }
+  
+  .dropdown-container {
+    text-align: left;
+    position: relative;
+    border-radius: 5px;
+  }
+  
+  
+
 @layer base {
 
     @font-face {

@@ -2,6 +2,7 @@ import React from 'react';
 import Nav from '../components/Nav';
 import DesktopNav from '../components/DesktopNav';
 import HERO_2 from '../assets/Final Assets/hero_2.png';
+import DomainsImage from '../assets/Domains.png'
 
 function Event() {
   return (
@@ -17,11 +18,11 @@ function Event() {
             <div className='bg-gradient-to-r from-blue-200/20 to-blue-200/5 backdrop-filter backdrop-blur-sm py-10 sm:py-4 p-8 sm:px-14 lg:py-8 lg:px-28 rounded-2xl border border-slate-400/20 hover:bg-slate-400/5 hover:cursor-pointer'>
             <h2 className='uppercase text-left mb-5 font-extrabold text-xl'>TECH-A-THON</h2>
             <p className=' text-justify mb-5'>
-              Tech-a-thon is an exciting two-day event that brings together teams from various domains. On the first day, the teams gather in their designated labs where a theme is assigned to them. They are then tasked with creating a technical project related to the theme, in the domain of their choice. At the end of the first day, the teams present their projects, and a select few whose projects show potential are expected to refine their projects overnight and present the final product on the second day. Judges will be present to evaluate the projects.
+            Tech-a-thon is an exciting coding event that brings together teams from various domains. On the first day, the teams gather in their designated labs where a theme is assigned to them. They are then tasked with creating a technical project related to the theme, in the domain of their choice. At the end of the first day, the teams will present their projects to the judges. Once the evaluation is done, we  will declare the top 3 winners who will go to the Grand Finale which will be held the next day.
             </p>
             <h3 className='uppercase text-left mb-5 font-extrabold text-xl'>Rules</h3>
             <p className=' text-justify mb-5'>
-            1. Teams: Participants may form teams with a maximum number of members, ranging from 2 to 5. Each team must have a unique team name and designate a team leader who will serve as the main point of contact. <br /><br />
+            1. Teams: Participants may form teams with a maximum number of members, ranging from 2 to 4. Each team must have a unique team name and designate a team leader who will serve as the main point of contact. <br /><br />
             2. Theme and Focus: The Tech-a-thon will have a specific theme or focus that all projects must align with. This theme may be related to a particular industry, social issue, or technological challenge. <br /><br />
             3. Intellectual Property: Participants must ensure that their project does not infringe on any intellectual property rights, including copyrights, trademarks, and patents. Any pre-existing code or technology used in the project must be properly licensed. <br /><br />
             4. Code of Conduct: Participants must follow a code of conduct that promotes professionalism, respect, and inclusivity. This includes guidelines related to behaviour, language, dress code, and harassment. <br /><br />
@@ -33,13 +34,14 @@ function Event() {
             <div className='bg-gradient-to-r from-blue-200/20 to-blue-200/5 backdrop-filter backdrop-blur-sm px-8 py-10 sm:py-4 sm:px-14 lg:py-8 lg:px-28 rounded-2xl border border-slate-400/20 hover:bg-slate-400/5 hover:cursor-pointer'>
             <h2 className=' text-left uppercase mt-8 mb-5 font-extrabold text-xl'>TECHNOVA</h2>
             <p className=' text-justify mb-5'>
-              TechNova is an event where individuals or teams showcase their technical skills and knowledge by presenting a project they have developed. These projects can range from software applications, hardware devices, robots, or any other technical project that solves a problem or improves a process.
-              The participants may have specific themes or requirements, such as focusing on a particular technology, addressing a particular societal or environmental issue, or fulfilling certain constraints like limited resources or time.
-              The participants present their projects to a panel of judges who evaluate the technical quality, creativity, innovation, and impact of the project.
+            TechNova is an event which will be conducted on the second day i.e. 25th April where individuals or teams showcase their technical skills and knowledge by presenting a project they have developed. These projects should come under the 10 domains which are mentioned in the given image that solves a problem or a process. The participants may have specific themes or requirements, such as focusing on a particular technology, addressing a particular societal or environmental issue, or fulfilling certain constraints like limited resources or time. The participants present their projects to a panel of judges who evaluate the technical quality, creativity, innovation, and impact of the project.
             </p>
+            <div className='flex justify-center'>
+              <img src={DomainsImage} alt="" className='h-1/2 w-1/2'/>
+            </div>
             <h3 className='uppercase text-left mb-5 font-extrabold text-xl'>Rules</h3>
             <p className=' test-justify mb-5'>
-            1. Projects: Participants can make teams of 2-5 each. Each team must submit a technical project that demonstrates creativity, innovation, and technical proficiency and must be the original work of the participants.<br/><br/>
+            1. Projects: Participants can make teams of 2 to 4 each. Each team must submit a technical project that demonstrates creativity, innovation, and technical proficiency and must be the original work of the participants.<br/><br/>
             2. Intellectual Property: Participants must ensure that their project does not infringe on any intellectual property rights, including copyrights, trademarks, and patents. Any pre-existing code or technology used in the project must be properly licensed.<br/><br/>
             3. Code of Conduct: Participants must follow a code of conduct that promotes professionalism, respect, and inclusivity. This includes guidelines related to behaviour, language, dress code, and harassment.<br/><br/>
             4. Judging Criteria: Projects will be judged according to specific criteria, which will include factors such as innovation, feasibility, impact, and technical skill. Judges will also consider the overall presentation and professionalism of the team.<br/><br/>
@@ -78,7 +80,6 @@ function Event() {
             5. Players are not allowed to climb on obstacles.<br/><br/>
             6. Physical contact between participants is prohibited.<br/><br/>
             7. No cheating or unsportsmanlike behaviour will be tolerated.<br/><br/><br/>
-            Register for Nerf Arena Here: <a className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://forms.gle/LABe5BcX32Y8Aykj9">https://forms.gle/LABe5BcX32Y8Aykj9</a>
             </p>
             </div>
             <div className='bg-gradient-to-r from-blue-200/20 to-blue-200/5 backdrop-filter backdrop-blur-sm px-8 py-10 sm:py-4 sm:px-14 lg:py-8 lg:px-28 rounded-2xl border border-slate-400/20 hover:bg-slate-400/5 hover:cursor-pointer'>
@@ -89,7 +90,7 @@ function Event() {
             </p>
             <h3 className='uppercase text-left mb-5 font-extrabold text-xl'>Rules</h3>
             <p className=' text-justify mb-5'>
-            1. Number of players: There are 2-4 players per group. <br/><br/>
+            1. Number of players: There are 3 to 5 players per group. <br/><br/>
             2. Time limit: Escape Rooms are timed. Players must escape within the allotted time in order to win the game. <br/><br/>
             3. Rules and safety: Players are required to follow the rules and safety guidelines.  These include no climbing on furniture or props, no use of excessive force, no use of personal electronic devices, and no use of outside tools or equipment, no photography or videography allowed inside the rooms.<br/><br/>
             4. Clues and puzzles: Escape rooms are designed with a series of puzzles and clues that must be solved in order to escape. Players must use their problem-solving and critical thinking skills to decipher the clues and move forward in the game.<br/><br/>
