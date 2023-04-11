@@ -75,7 +75,7 @@ const TechNova = () => {
 
 
     setLoading(true);
-    axios.post('http://localhost:8000/api/register_technova/', formData, { headers: { 'content-type': 'multipart/form-data' }})
+    axios.post('http://dsaii.co.in:8000/api/register_technova/', formData, { headers: { 'content-type': 'multipart/form-data' }})
       .then(response => {
         console.log(response.data)
         if (response.data.Response === 'OK'){
