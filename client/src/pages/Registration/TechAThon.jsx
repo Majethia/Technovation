@@ -74,7 +74,7 @@ function TechAThon() {
   return (
     <div className=' flex flex-col justify-between h-screen'>
       <RegisterNav active={'TechAThon'} />
-      <div className=' sm:hidden'>
+      <div className=' sm:hidden h-0'>
           <RegisterNavPhone active={'TechAThon'} />
       </div>
       <div className=' mx-10 my-5 flex justify-end'>

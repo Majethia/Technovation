@@ -84,7 +84,7 @@ const EscapeRoom = () => {
   return (
     <div className=' flex flex-col justify-between h-screen'>
       <RegisterNav active={'EscapeRoom'} />
-      <div className=' sm:hidden'>
+      <div className=' sm:hidden h-0'>
           <RegisterNavPhone active={'EscapeRoom'} />
       </div>
       <div className=' mx-10 my-5 flex justify-end'>

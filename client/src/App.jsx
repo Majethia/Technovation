@@ -10,9 +10,14 @@ import NerfArena from './pages/Registration/NerfArena';
 import Contact from './pages/Contact';
 import About from './pages/About';
 import NotFound from './pages/NotFound';
+import BackgroundVid from './assets/Space_Nebula_Encoded.mp4'
 
 function App() {
   return (
+    <>
+    <video className='h-screen object-cover' autoPlay loop muted id="video">
+      <source src={BackgroundVid} type='video/mp4'/>
+    </video>
     <Routes>
       <Route path= '/' element={<Home />}/>
       <Route path='/technovation/' element={<Home />} />
@@ -26,6 +31,7 @@ function App() {
       <Route path='/technovation/register/NerfArena' element={<NerfArena/>} />
       <Route path='*' element={<NotFound />} />
     </Routes>
+    </>
   );
 }
 

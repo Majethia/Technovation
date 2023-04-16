@@ -73,7 +73,7 @@ const NerfArena = () => {
   return (
     <div className=' flex flex-col justify-between h-screen'>
       <RegisterNav active={'NerfArena'} />
-      <div className=' sm:hidden'>
+      <div className=' sm:hidden h-0'>
           <RegisterNavPhone active={'NerfArena'} />
       </div>
       <div className=' mx-10 my-5 flex justify-end'>

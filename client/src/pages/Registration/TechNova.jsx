@@ -94,7 +94,7 @@ const TechNova = () => {
   return (
     <div className=' flex flex-col justify-between h-screen'>
       <RegisterNav active={'TechNova'} />
-      <div className=' sm:hidden'>
+      <div className=' sm:hidden h-0'>
           <RegisterNavPhone active={'TechNova'} />
       </div>
       <div className=' mx-10 my-5 flex justify-end'>

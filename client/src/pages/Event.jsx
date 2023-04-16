@@ -17,11 +17,11 @@ function Event() {
           <div className='gap-9 flex flex-col text-slate-100/95 text-lg font-montserrat'>
             <div className='bg-gradient-to-r from-blue-200/20 to-blue-200/5 backdrop-filter backdrop-blur-sm py-10 sm:py-4 p-8 sm:px-14 lg:py-8 lg:px-28 rounded-2xl border border-slate-400/20 hover:bg-slate-400/5 hover:cursor-pointer'>
             <h2 className='uppercase text-left mb-5 font-extrabold text-xl'>TECH-A-THON</h2>
-            <p className=' text-justify mb-5'>
+            <p className=' text-justify mb-5 text-sm md:text-xl'>
             Tech-a-thon is an exciting coding event that brings together teams from various domains. On the first day, the teams gather in their designated labs where a theme is assigned to them. They are then tasked with creating a technical project related to the theme, in the domain of their choice. At the end of the first day, the teams will present their projects to the judges. Once the evaluation is done, we  will declare the top 3 winners who will go to the Grand Finale which will be held the next day.
             </p>
             <h3 className='uppercase text-left mb-5 font-extrabold text-xl'>Rules</h3>
-            <p className=' text-justify mb-5'>
+            <p className=' text-justify mb-5 text-sm md:text-xl'>
             1. Teams: Participants may form teams with a maximum number of members, ranging from 2 to 4. Each team must have a unique team name and designate a team leader who will serve as the main point of contact. <br /><br />
             2. Theme and Focus: The Tech-a-thon will have a specific theme or focus that all projects must align with. This theme may be related to a particular industry, social issue, or technological challenge. <br /><br />
             3. Intellectual Property: Participants must ensure that their project does not infringe on any intellectual property rights, including copyrights, trademarks, and patents. Any pre-existing code or technology used in the project must be properly licensed. <br /><br />
