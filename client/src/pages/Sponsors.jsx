@@ -8,9 +8,9 @@ const Sponsors = () => {
   return (
     <div className='flex flex-col h-screen'>
         <div>
-            <DesktopNav active={'register'} />
+            <DesktopNav active={'sponsors'} />
             <div className=' sm:hidden'>
-                <Nav active={'register'} />
+                <Nav active={'sponsors'} />
             </div>
         </div>
       <img className='w-full h-screen sm:block hidden' src={sponsors_img} alt="Sponsors" />
