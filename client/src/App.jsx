@@ -11,6 +11,7 @@ import Contact from './pages/Contact';
 import About from './pages/About';
 import NotFound from './pages/NotFound';
 import BackgroundVid from './assets/Space_Nebula_Encoded.mp4'
+import Sponsors from './pages/Sponsors'
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
       <Route path='/technovation/register/TechNova' element={<TechNova />} />
       <Route path='/technovation/register/EscapeRoom' element={<EscapeRoom />} />
       <Route path='/technovation/register/NerfArena' element={<NerfArena/>} />
+      <Route path='/technovation/sponsors' element={<Sponsors/>}/>
       <Route path='*' element={<NotFound />} />
     </Routes>
     </>

@@ -5,6 +5,7 @@ import { MdEmojiEvents } from 'react-icons/md';
 import { MdOutlineAppRegistration } from 'react-icons/md';
 import { AiFillContacts } from 'react-icons/ai';
 import { AiFillInfoCircle } from 'react-icons/ai';
+import { SiGithubsponsors } from 'react-icons/si';
 
 function Nav({ active }) {
   return (
@@ -17,6 +18,7 @@ function Nav({ active }) {
             <li className={active !== "home" ? `m-2 hover:bg-sky-600 rounded-full ease-in-out duration-500` : `bg-sky-600 rounded-full ease-in-out duration-500 -translate-y-6 border-4 border-sky-700`}><Link to="/technovation" className='flex flex-col items-center justify-center m-3 text-xs'><AiFillHome size={20} color='white'/><p className={active === 'home' ? ` relative top-4 uppercase font-Android_Assassin text-slate-100/95` : `hidden`}>Home</p></Link></li>
             <li className={active !== 'contact' ? `m-2 hover:bg-sky-600 rounded-full ease-in-out duration-500` : `bg-sky-600 rounded-full ease-in-out duration-500 -translate-y-6 border-4 border-sky-700`}><Link to="/technovation/contact" className='flex flex-col items-center justify-center m-3 text-xs'><AiFillContacts size={20} color='white'/><p className={active === 'contact' ? ` relative top-4 uppercase font-Android_Assassin text-slate-100/95` : `hidden`}>Contact</p></Link></li>
             <li className={active !== 'about' ? `m-2 hover:bg-sky-600 rounded-full ease-in-out duration-500` : `bg-sky-600 rounded-full ease-in-out duration-500 -translate-y-6 border-4 border-sky-700`}><Link to="/technovation/about" className='flex flex-col items-center justify-center m-3 text-xs'><AiFillInfoCircle size={20} color='white'/><p className={active === 'about' ? ` relative top-4 uppercase font-Android_Assassin text-slate-100/95` : `hidden`}>About</p></Link></li>
+            <li className={active !== 'sponsors' ? `m-2 hover:bg-sky-600 rounded-full ease-in-out duration-500` : `bg-sky-600 rounded-full ease-in-out duration-500 -translate-y-6 border-4 border-sky-700`}><Link to="/technovation/sponsors" className='flex flex-col items-center justify-center m-3 text-xs'><SiGithubsponsors size={20} color='white'/><p className={active === 'about' ? ` relative top-4 uppercase font-Android_Assassin text-slate-100/95` : `hidden`}>Sponsors</p></Link></li>
           </ul>
         </nav>
       </div>
