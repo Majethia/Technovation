@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 function DesktopNav({ active }) {
     console.log(active)
-    return (        
+    return (
             <nav className=' flex justify-between items-center'>
                 <Link to="/"><img src={TECHNO} alt="TECHNOVATION" className=' w-28' /></Link>
                 <div className=" hidden sm:block">
